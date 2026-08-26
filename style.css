@@ -338,3 +338,467 @@ footer {
   }
 
 }
+/* ==================================================
+   PROJECT CASE STUDY
+================================================== */
+
+
+/* ------------------------------
+   PROJECT HERO
+------------------------------ */
+
+.case-hero {
+  padding: 80px 4% 120px;
+  border-bottom: 1px solid #b9b5ad;
+}
+
+.case-topline {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: #6f6b65;
+}
+
+.case-hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(80px, 14vw, 210px);
+  font-weight: 400;
+  line-height: 0.82;
+  letter-spacing: -0.065em;
+}
+
+.case-intro {
+  margin-top: 90px;
+
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 100px;
+  align-items: start;
+}
+
+.case-description {
+  max-width: 620px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(25px, 2.6vw, 40px);
+  line-height: 1.25;
+}
+
+.case-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.meta-label {
+  margin-bottom: 15px;
+
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  color: #6f6b65;
+}
+
+.live-link {
+  display: inline-block;
+  margin-top: 65px;
+
+  font-size: 11px;
+  letter-spacing: 0.12em;
+
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 5px;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.live-link:hover {
+  transform: translateX(7px);
+  opacity: 0.6;
+}
+
+
+/* ------------------------------
+   LARGE PROJECT IMAGE
+------------------------------ */
+
+.case-image-full {
+  width: 100%;
+}
+
+.case-image-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body.project-page > main > .case-image-full {
+  padding: 80px 4%;
+  border-bottom: 1px solid #b9b5ad;
+}
+
+
+/* ------------------------------
+   PROJECT OVERVIEW
+------------------------------ */
+
+.case-overview {
+  padding: 130px 4%;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 80px;
+
+  border-bottom: 1px solid #b9b5ad;
+}
+
+.case-overview-content {
+  max-width: 930px;
+}
+
+.case-overview h2 {
+  margin-bottom: 65px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(55px, 7vw, 105px);
+  font-weight: 400;
+  line-height: 0.92;
+  letter-spacing: -0.05em;
+}
+
+.case-overview-content > p {
+  max-width: 580px;
+  margin-bottom: 25px;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+/* ------------------------------
+   CASE STUDY SECTIONS
+------------------------------ */
+
+.case-section {
+  padding: 130px 4%;
+  border-bottom: 1px solid #b9b5ad;
+}
+
+.case-section-heading {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 80px;
+
+  margin-bottom: 90px;
+}
+
+.case-section-heading > p:first-child {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: #6f6b65;
+}
+
+.case-section-heading h2 {
+  margin-top: 20px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(55px, 7vw, 105px);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+
+/* ------------------------------
+   IMAGE GRIDS
+------------------------------ */
+
+.case-grid {
+  display: grid;
+  gap: 40px;
+  align-items: start;
+}
+
+.case-grid-two {
+  grid-template-columns: 1.25fr 0.75fr;
+}
+
+.case-grid-asymmetrical {
+  grid-template-columns: 0.8fr 1.2fr;
+}
+
+.case-grid figure {
+  margin: 0;
+}
+
+.case-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.case-grid figcaption {
+  margin-top: 13px;
+
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  color: #6f6b65;
+}
+
+
+/* ------------------------------
+   CASE STUDY COPY
+------------------------------ */
+
+.case-copy {
+  max-width: 540px;
+
+  margin-top: 70px;
+  margin-left: auto;
+
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+
+/* ------------------------------
+   MERCH SECTION IMAGE
+------------------------------ */
+
+.case-section .case-image-full {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* ------------------------------
+   PROJECT OUTCOME
+------------------------------ */
+
+.case-outcome {
+  padding: 150px 4%;
+  border-bottom: 1px solid #b9b5ad;
+}
+
+.case-outcome h2 {
+  max-width: 1100px;
+  margin: 55px 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(65px, 9vw, 140px);
+  font-weight: 400;
+  line-height: 0.86;
+  letter-spacing: -0.06em;
+}
+
+.case-outcome > p:not(.section-label) {
+  max-width: 520px;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+/* ------------------------------
+   NEXT PROJECT
+------------------------------ */
+
+.next-project {
+  padding: 100px 4% 120px;
+}
+
+.next-project > a {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  border-top: 1px solid #b9b5ad;
+  padding-top: 35px;
+}
+
+.next-project span {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: #6f6b65;
+}
+
+.next-project h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(55px, 8vw, 120px);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.next-project a:hover h2 {
+  transform: translateX(8px);
+  opacity: 0.6;
+}
+
+
+/* ==================================================
+   CASE STUDY — TABLET
+================================================== */
+
+@media (max-width: 900px) {
+
+  .case-hero {
+    padding-top: 65px;
+  }
+
+  .case-topline {
+    margin-bottom: 70px;
+  }
+
+  .case-intro {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .case-meta {
+    max-width: 500px;
+  }
+
+  .case-overview {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .case-section-heading {
+    grid-template-columns: 100px 1fr;
+    gap: 30px;
+  }
+
+  .case-grid-two,
+  .case-grid-asymmetrical {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+/* ==================================================
+   CASE STUDY — MOBILE
+================================================== */
+
+@media (max-width: 650px) {
+
+  .case-hero {
+    padding: 60px 6% 90px;
+  }
+
+  .case-topline {
+    margin-bottom: 60px;
+  }
+
+  .case-hero h1 {
+    font-size: clamp(68px, 22vw, 110px);
+  }
+
+  .case-intro {
+    margin-top: 60px;
+    gap: 45px;
+  }
+
+  .case-description {
+    font-size: 24px;
+  }
+
+  .case-meta {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    font-size: 11px;
+  }
+
+  .live-link {
+    margin-top: 50px;
+  }
+
+
+  body.project-page > main > .case-image-full {
+    padding: 50px 6%;
+  }
+
+
+  .case-overview {
+    padding: 90px 6%;
+  }
+
+  .case-overview h2 {
+    margin-bottom: 45px;
+    font-size: clamp(48px, 15vw, 72px);
+  }
+
+
+  .case-section {
+    padding: 90px 6%;
+  }
+
+  .case-section-heading {
+    grid-template-columns: 1fr;
+    gap: 25px;
+
+    margin-bottom: 55px;
+  }
+
+  .case-section-heading h2 {
+    font-size: clamp(48px, 15vw, 72px);
+  }
+
+
+  .case-grid-two,
+  .case-grid-asymmetrical {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .case-copy {
+    margin-top: 55px;
+    margin-left: 0;
+
+    max-width: 100%;
+
+    font-size: 13px;
+  }
+
+
+  .case-outcome {
+    padding: 100px 6%;
+  }
+
+  .case-outcome h2 {
+    margin: 45px 0;
+
+    font-size: clamp(55px, 17vw, 85px);
+  }
+
+
+  .next-project {
+    padding: 80px 6% 100px;
+  }
+
+  .next-project > a {
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 25px;
+  }
+
+  .next-project h2 {
+    font-size: clamp(52px, 16vw, 80px);
+  }
+
+}
